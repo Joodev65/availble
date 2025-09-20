@@ -6,9 +6,44 @@
       "role": "admin"
     },
     {
-      "username": "7ooModdss", 
+      "username": "7ooModdss",
       "password": "nocturne2024",
-      "role": "developer"
+      "role": "owner"
+    },
+    {
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "username": "testuser",
+      "password": "test123",
+      "role": "user"
+    },
+    {
+      "username": "demo",
+      "password": "demo123",
+      "role": "user"
     }
-  ]
+  ],
+  "settings": {
+    "app_name": "Nocturne Executor",
+    "version": "1.0.0",
+    "developer": "7ooModdss",
+    "last_updated": "2024-12-19",
+    "maintenance_mode": false,
+    "max_users_per_day": 100,
+    "whatsapp_rate_limit_minutes": 15,
+    "ngl_max_messages": 50
+  },
+  "features": {
+    "whatsapp_enabled": true,
+    "ai_chat_enabled": true,
+    "music_enabled": true,
+    "ngl_spammer_enabled": true
+  },
+  "api_keys": {
+    "gemini_api_key": "AIzaSyBqxmXKOnC143trXp04VCpjG3aedCRr8ME",
+    "note": "API keys dapat diupdate disini tanpa restart server"
+  }
 }
